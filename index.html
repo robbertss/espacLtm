@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Espac Limited || Home</title>
+<style>
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: cambria;
+}
+header {
+margin:10px;
+background-color: #ffffff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.logo a {
+font-size: 30px;
+font-weight: bold;
+padding-left: 40px;
+}
+nav {
+font-size: 15px;
+color: #046ca5ff;
+display: flex;
+justify-content: center;
+border-radius: 6px;
+margin: 30px auto 20px auto;
+width: 900px;
+}
+nav a {
+padding: 10px;
+color :#046ca5ff;
+text-decoration: none;
+margin: 0 1em;
+font-weight: bold;
+font-size: 16px;
+position: relative;
+}
+nav a::after {
+content: "";
+display: block;
+width: 0%;
+height: 2px;
+background: #046ca5ff;
+transition: 0.3s;
+position: absolute;
+bottom: -5px;
+left: 0;
+}
+nav a:hover::after {
+width: 100%;
+}
+.contactbutton a {
+background-color: #046ca5ff;
+color: #fff;
+border: 2px solid #046ca5ff;
+padding: 12px 24px;
+margin: 20px;
+text-decoration: none;
+font-weight: 600;
+border-radius: 8px;
+transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+display: inline-block;
+}
+.contactbutton a:hover {
+background-color:#4e93c4ff;
+border-color: #4e93c4ff;
+color: #ffffff;
+}
+.homepage {
+height: 500px;
+}
+.homepage img {
+float: right;
+padding-right: 50px;
+display: block;
+flex: 1;
+height: 450px;
+width:700px;
+position: relative;
+overflow: hidden;
+}
+.text {
+margin-left: 80px;
+margin-top:120px;
+max-width: 600px;
+}
+.text h2 {
+margin-top:120px;
+margin-bottom:25px;
+font-weight: bold;
+color:#02577AFF;
+font-size: 45px;	
+}
+.text p {
+font-size: 20px;
+color: #4e93c4ff;
+	
+}
+.buttons a {
+background-color: #046ca5ff;
+color: #fff;
+border: 2px solid #046ca5ff;
+padding: 12px 24px;
+margin: 20px;
+margin-left: 45px;
+text-decoration: none;
+font-weight: 600;
+border-radius: 8px;
+transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+display: inline-block;
+}
+.buttons a:hover {
+background-color: #046ca5ff;
+border-color: #046ca5ff;
+color: #ffffff;
+}
+#contact {
+background-color: #046ca5ff;
+color: #ffffff;
+font-size: 30px;
+height: 700px;
+width: auto;
+padding: 90px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 40px;
+}
+.boxcontact p {
+font-size: 25px;
+text-align: left;
+padding: 3px;
+padding-left: 30px;
+}
+aside {
+border: 15px double #ffffff;
+max-width: 500px;
+}
+aside img {
+width: 100%;
+height: auto;
+display: block;
+}
+footer {
+background-color: #4e93c4ff;
+color: white;
+text-align: center;
+padding: 10px;
+bottom: 0;
+width: 100%;
+margin-top: 20px;
+float: bottom;
+height:50px;
+}
+</style>
+<body>
+<!-- Header -->
+<header>
+ <div class="logo">
+ <a href="index.html"><img src="images/EspacLogo.png" alt="logo" width="200" height="70"></a>
+</div>
+  <!-- Navigation buttons -->
+
+  <nav>
+    <a href="pages/newMachinery/newMachinery.html">New Machinery</a>
+    <a href="pages/usedMachinery/usedMachinery.html">Used Machinery</a>
+    <a href="pages/materials.html">Materials</a>
+    <a href="pages/serviceAndParts.html">Service & Parts</a>
+  </nav>
+
+  <!-- contact button -->
+  <div class="contactbutton">
+    <a href="#contact">contact us . . .</a>
+  </div>
+</header>
+
+<!-- homepage -->
+<div class="homepage">
+  <img src="images/HOMEPAGEimgV3.PNG" class="photo">
+  <div class="text">	
+    <h2>Innovative Packaging & Machinery Solutions</h2>
+    <p>At Espac LTM, we've been providing reliable, high-performance packaging and machinery solutions since 1989.
+    With decades of experience and a commitment to quality, we help businesses streamline production and grow with confidence.</p>
+  </div>
+
+  <!-- buttons -->
+  <div class="buttons">	
+    <a href="pages/usedMachinery/usedMachinery.html">used machinery</a>
+    <a href="pages/materials.html">packaging materials</a>
+    <a href="pages/newMachinery/newMachinery.html">new machinery</a>
+  </div>
+</div>
+
+<!-- Contact-->
+<section id="contact">
+  <h2>/ Contact Us /</h2>
+  <div class="boxcontact">
+    <p>Email: info@espac.ie</p>
+    <p>Phone: 01 280 5257</p>
+    <p>Solos Tower Industrial Estate</p>
+    <p>Bray, Co. Wicklow</p>
+  </div>
+  <aside>
+    <img src="images/EspacGoogleMaps.png" alt="Contact image">
+  </aside>
+</section>
+</body>
+<footer>
+  <p>COPYRIGHT 2025 ESPAC LIMITED ALL RIGHTS RESERVED</p>
+</footer>
+</html>
