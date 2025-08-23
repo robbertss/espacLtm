@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -307,3 +308,314 @@
 
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ESPAC LTM - Materials</title>
+  <style>
+    /* --- Your existing CSS remains unchanged --- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: cambria;
+    }
+
+    header {
+      margin:10px;
+      background-color: #ffffff; 
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .logo a {
+      font-size: 30px;
+      font-weight: bold; 
+      padding-left: 40px;
+    }
+
+    nav {
+      font-size: 15px;
+      color:  #046ca5ff;
+      display: flex;
+      justify-content: center;
+      border-radius: 6px;
+      margin: 30px auto 20px auto;
+      width: 900px;
+    }
+
+    nav a {
+      padding: 10px;
+      color :#046ca5ff;
+      text-decoration: none;
+      margin: 0 1em;
+      font-weight: bold;
+      font-size: 16px;
+      position: relative;
+    }
+
+    nav a::after {
+      content: "";
+      display: block;
+      width: 0%;
+      height: 2px;
+      background:  #046ca5ff;
+      transition: 0.3s;
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+    }
+
+    nav a:hover::after {
+      width: 100%;
+    }
+
+    .contactbutton a {
+      background-color: #046ca5ff;
+      color: #fff;
+      border: 2px solid #046ca5ff;
+      padding: 12px 24px;
+      margin: 20px;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 8px;
+      transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      display: inline-block;
+    }
+
+    .contactbutton a:hover {
+      background-color:#4e93c4ff; 
+      border-color: #4e93c4ff;
+      color: #ffffff;
+    }
+
+    .machine-cards-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); 
+      gap: 25px;
+      padding: 40px 60px;
+      background-color: #f9f9f9;
+    }
+
+    .machine-card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      max-width: 100%;
+    }
+
+    .machine-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+    }
+
+    .machine-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: contain;
+      object-position: center;
+      border-radius: 8px;
+      background-color: white;
+      margin-bottom: 15px;
+      padding: 10px;
+    }
+
+    .machine-card h3 {
+      font-size: 18px;
+      color: #046ca5ff;
+      margin-bottom: 10px;
+    }
+
+    .machine-card p {
+      font-size: 14px;
+      color: #333;
+      margin: 6px 0;
+    }
+
+    #contact {
+      background-color:  #046ca5ff;
+      color: #ffffff;
+      font-size: 30px;
+      height: 700px;
+      width: auto;
+      padding: 90px;
+      display: flex;
+      align-items: center;       
+      justify-content: space-between; 
+      gap: 40px;                
+    }
+
+    .boxcontact p {
+      font-size: 25px;
+      text-align: left;        
+      padding: 3px;
+      padding-left: 30px;
+    }
+
+    aside {
+      border: 15px double #ffffff;
+      max-width: 500px;          
+    }
+
+    aside img {
+      width: 100%;            
+      height: auto;
+      display: block;
+    }
+
+    footer {
+      background-color: #4e93c4ff;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      bottom: 0;
+      width: 100%;
+      margin-top: 20px;
+      height: 50px;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+  <div class="logo">
+    <a href="../index.html"><img src="../images/EspacLogo.png" alt="logo" width="200" height="70"></a>
+  </div>
+  
+ <nav>
+<a href="newMachinery/newMachinery.html">New Machinery</a>
+<a href="usedMachinery/usedMachinery.html">Used Machinery</a>
+<a href="materials.html">Materials</a>
+<a href="serviceAndParts.html">Service & Parts</a>
+</nav>
+  
+  <div class="contactbutton">
+    <a href="#contact">contact us . . .</a>
+  </div>
+</header>
+
+<!-- Banner -->
+<img src="../images/MaterialsIMG.PNG" alt="Machine Image" height="500px" width="1500px">
+
+<div class="machine-cards-container">
+
+  <div class="machine-card">
+    <h3>Machine Stretch Film</h3>
+    <img src="../images/Screenshot 2025-07-12 165647.png" alt="Machine Image">
+    <p><strong>/ Description /</strong></p>
+    <br>
+    <p>clear, black & tinted</p>
+    <p>machine pallet wrap</p>
+    <br>
+    <p>standard 23mu & lighter grades for power pre Stretch machines</p>
+  </div>
+
+  <div class="machine-card">
+    <h3>Tape (Hand & Machine)</h3>
+    <img src="../images/PpSolventMachineTape.png" alt="Machine Image">
+    <p><strong>/ Description /</strong></p>
+    <br>
+    <p>clear, brown & tinted tapes</p>
+    <p>acrylic, solvent or hotmelt adhesives</p>
+    <br>
+    <p>For use on corrugated boxes using automatic or semi automatic carton sealing machines, or for hand application</p>
+  </div>
+
+  <div class="machine-card">
+    <h3>Hand Stretch Film (Pallet Wrap)</h3>
+    <img src="../images/PalletWrap.png" alt="Machine Image">
+    <p><strong>/ Description /</strong></p>
+    <br>
+    <p>Ideal for wrapping pallets, wrapping furniture and other bulky items</p>
+    <p>Extended core for easy grip & flush core for use with dispensers</p>
+  </div>
+
+  <div class="machine-card">
+    <h3>Polyolefin Shrink Film</h3>
+    <img src="../images/ShrinkFilm.png" alt="Machine Image">
+    <p><strong>/ Description /</strong></p>
+    <br>
+    <p>recycleable shrink films for use on manual, semi automatic & automatic shrink wrapping machines</p>
+    <br>
+    <p>full range including high speed films, soft shrink films, anti fog films and quick shrink films</p>
+  </div>
+
+  <div class="machine-card">
+    <h3>PVC Shrink Film</h3>
+    <img src="../images/ShrinkFilm2.png" alt="Machine Image">
+    <p><strong>/ Description /</strong></p>
+    <br>
+    <p>rigid shrink film ideal for wrapping products using manual and semi automatic shrink wrapping machines</p>
+    <br>
+    <p>large selection of roll widths & microns available from stock</p>
+  </div>
+
+      <div class="machine-card">
+    <h3>Corrugated Boxes</h3>
+    <img src="../images/CorrugatedBoxes.jpg" alt="Machine Image">
+    <p><strong>/ Description /</strong></p>
+    <br>
+    <p>bespoke corrugated boxes, plain or printed</p>
+    <p>made to order</p>
+    <br>
+    <p>range of off the shelf stock boxes available in single wall & double wall</p>
+  </div>
+
+  <div class="machine-card">
+    <h3>Polythene Shrink Film</h3>
+    <img src="../images/ShrinkFilm3.png" alt="Machine Image">
+    <p><strong>/ Description /</strong></p>
+    <br>
+    <p>available in clear and printed films</p>
+    <p>sizes made to order</p>
+    <br>
+    <p>ideal for use in sleeve wrapping, bundling & shrink wrapping machinery, when wrapping heavy items such as bottles, milk cartons, cans, etc</p>
+  </div>
+
+  <div class="machine-card">
+    <h3>Polypropylene Film</h3>
+    <img src="../images/ShrinkFilm4.png" alt="Machine Image">
+    <p><strong>/ Description /</strong></p>
+    <br>
+    <p>clear film for use on flow wrapping machines</p>
+    <br>
+    <p>sizes made to order in various microns</p>
+    <br>
+    <p>anti fog & biodegradable films available</p>
+  </div>
+
+
+
+</div>
+
+<!-- Contact -->
+<section id="contact">
+  <h2>/ Contact Us /</h2>
+  <div class="boxcontact">
+    <p>Email: info@espac.ie</p>
+    <p>Phone: 01 280 5257</p>
+    <p>Solos Tower Industrial Estate</p>
+    <p>Bray, Co. Wicklow</p>
+  </div>
+
+  <aside>
+    <img src="../images/EspacGoogleMaps.png" alt="Contact image">
+  </aside>
+</section>
+
+<footer>
+  <p>COPYRIGHT 2025 ESPAC LIMITED ALL RIGHTS RESERVED</p>
+</footer>
+
+</body>
+</html>
+>>>>>>> 986175343e8dd642567f72c433d574ade120370a
